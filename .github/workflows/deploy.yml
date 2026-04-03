@@ -68,9 +68,4 @@ jobs:
           aws s3 sync cost-dashboard/dist/ \
             s3://${{ secrets.S3_BUCKET_NAME }} --delete
 
-      - name: Invalidate CloudFront cache
-        run: |
-          aws cloudfront create-invalidation \
-            --distribution-id ${{ secrets.CLOUDFRONT_ID }} \
-            --paths "/*"
-        continue-on-error: true
+    
