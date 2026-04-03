@@ -3,11 +3,8 @@
 A full-stack cloud cost monitoring dashboard that uses Claude AI to generate
 plain-English explanations for AWS spend anomalies.
 
-## Live demo
-[https://d1234abcd.cloudfront.net](https://d1234abcd.cloudfront.net)
-
 ## Screenshot
-![Dashboard screenshot](./screenshot.png)
+![Dashboard screenshot](./Demo.png)
 
 ## How it works
 1. React frontend fetches AWS spend data via API Gateway
